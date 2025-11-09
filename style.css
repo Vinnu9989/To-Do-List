@@ -1,0 +1,19 @@
+body {
+  background: linear-gradient(135deg, #F7971E 0%, #FFD200 100%);
+  font-family: Arial, sans-serif; color: #222;
+  display: flex; justify-content: center; align-items: center; height: 100vh;
+}
+.todo-container {
+  background: rgba(255,255,255,0.8);
+  padding: 30px 35px; border-radius: 14px; text-align: center;
+  box-shadow: 0 2px 13px rgba(0,0,0,.2);
+}
+input, button { padding: 10px; border-radius: 8px; border: none; margin: 10px 0; }
+button { background: #27ae60; color: #fff; cursor: pointer; }
+ul { list-style: none; padding: 0; }
+li {
+  background: #fff; margin-top: 8px; padding: 8px 13px;
+  border-radius: 7px; display: flex; justify-content: space-between; align-items: center;
+  font-size: 16px; box-shadow: 0 1px 6px rgba(0,0,0,.08);
+}
+li.done { text-decoration: line-through; color: #aaa; }
